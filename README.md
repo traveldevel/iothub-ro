@@ -14,10 +14,11 @@ Landscape = each instance of the hub
 
 Components of each Landscape :
 
-  - Ingestion (raw data, events, locations) : Kafka topic + Node.Js API to handle each topic and raise events
+  - Ingestion (raw data, events, locations) : Kafka topic + node.js app to handle each topic and raise events
   - Transfer to hotstore (Mongo DB) + Transfer to coldstore (if activated - Hadoop)
-  - Hub UI Admin
-  - Hub UI Analytics
+  - Hub UI Admin (ui5 app)
+  - Hub UI Analytics (later on)
+  - REST API for data and entities admin (node.js)
   
 Conventions :
 
