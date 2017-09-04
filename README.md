@@ -6,7 +6,7 @@
  - Tenants (example : myaccount)
  - Projects (example : vehicle-tracking)
  - Device groups (example : buses)
- - Devices
+ - Devices (DEVICE_ID is GUID)
  
 # Implementation details
 
@@ -35,7 +35,60 @@ Conventions :
       /<LANDSCAPE>/<TENANT_NAME>/<PROJECT>/<GROUP>/<DEVICE>/locations.csv
   
   - projects, groups, devices, locations, events, rawdata are entities stored in different tables 
- 
+
+# Fields for "projects"
+
+- guid
+- name
+- description
+
+# Fields for "groups"
+
+- guid
+- project (guid)
+- name
+- description
+
+# Fields for "device_schemas"
+
+- guid
+- project (guid)
+- name
+- values ( key = type pair list)
+
+# Fields for "devices"
+
+- guid
+- project (guid)
+- group (guid)
+- name
+- authToken (another auto guid) 
+- description
+- createdAt (datetime)
+- lastContact (datetime)
+- validateSchema (if any : guid)
+
+# Fields for "locations"
+
+- guid
+- project (guid)
+- group (guid)
+- device (guid)
+- latitude (decimal)
+- longitude (decimal)
+- recordedTime (datetime)
+- createdAt (datetime)
+
+# Fields for "rawdata"
+
+- guid
+- project (guid)
+- group (guid)
+- device (guid)
+- values ( key = value pair list)
+- recordedTime (datetime)
+- createdAt (datetime)
+
 # Install steps
 
 See here
