@@ -22,18 +22,18 @@ Components of each Landscape :
   
 Conventions :
 
-  - Landscape URI : http://<LANDSCAPE>.iothub.ro (example : http://shared1.iothub.ro)
-  - Tenant URI : http://<LANDSCAPE>.iothub.ro/<TENANT_NAME> (example : http://shared1.iothub.ro/myaccount)
-  - Project URI : http://<LANDSCAPE>.iothub.ro/<TENANT_NAME> (example : http://shared1.iothub.ro/myaccount/vehicle-tracking)
-  - Group URI : http://<LANDSCAPE>.iothub.ro/<TENANT_NAME> (example : http://shared1.iothub.ro/myaccount/vehicle-tracking/buses)
-  - Device URI : http://<LANDSCAPE>.iothub.ro/<TENANT_NAME> (example : http://shared1.iothub.ro/myaccount/vehicle-tracking/buses/<DEVICE_ID>)
+  - Landscape URI : http://<LANDSCAPE_NAME>.iothub.ro (example : http://shared1.iothub.ro)
+  - Tenant URI : http://<LANDSCAPE_NAME>.iothub.ro/<TENANT_NAME> (example : http://shared1.iothub.ro/myaccount)
+  - Project URI : http://<LANDSCAPE_NAME>.iothub.ro/<TENANT_NAME> (example : http://shared1.iothub.ro/myaccount/vehicle-tracking)
+  - Group URI : http://<LANDSCAPE_NAME>.iothub.ro/<TENANT_NAME> (example : http://shared1.iothub.ro/myaccount/vehicle-tracking/buses)
+  - Device URI : http://<LANDSCAPE_NAME>.iothub.ro/<TENANT_NAME> (example : http://shared1.iothub.ro/myaccount/vehicle-tracking/buses/<DEVICE_ID>)
   
   - Tenants has different Mongo DBs with name : <TENANT_NAME>_tenant
   - Tenants have different Hadoop folders and files : 
   
-      /<LANDSCAPE>/<TENANT_NAME>/<PROJECT>/<GROUP>/<DEVICE>/rawdata.csv
-      /<LANDSCAPE>/<TENANT_NAME>/<PROJECT>/<GROUP>/<DEVICE>/events.csv
-      /<LANDSCAPE>/<TENANT_NAME>/<PROJECT>/<GROUP>/<DEVICE>/locations.csv
+      /<LANDSCAPE_NAME>/<TENANT_NAME>/<PROJECT_GUID>/<GROUP_GUID>/<DEVICE_GUID>/rawdata.csv
+      /<LANDSCAPE_NAME>/<TENANT_NAME>/<PROJECT_GUID>/<GROUP_GUID>/<DEVICE_GUID>/events.csv
+      /<LANDSCAPE_NAME>/<TENANT_NAME>/<PROJECT_GUID>/<GROUP_GUID>/<DEVICE_GUID>/locations.csv
   
   - projects, groups, devices, locations, events, rawdata are entities stored in different tables 
 
@@ -77,6 +77,8 @@ Conventions :
 - device (guid)
 - latitude (decimal)
 - longitude (decimal)
+- accuracy (int)
+- speed (int)
 - recordedTime (datetime)
 - createdAt (datetime)
 
