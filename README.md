@@ -1,5 +1,7 @@
 # iothub-ro
 
+Install steps for each landscape : [here](INSTALL.md)
+
 # Architecture Hierarchy
 
  - Landscapes (example : shared1)
@@ -91,7 +93,3 @@ Conventions :
 - values ( key = value pair list)
 - recordedTime (datetime)
 - createdAt (datetime)
-
-# Install steps
-
-See here
