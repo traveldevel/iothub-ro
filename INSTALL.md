@@ -7,12 +7,8 @@
 3. Install Kafka Manager on port 9000
    
    https://github.com/yahoo/kafka-manager
-
-   http://edbaker.weebly.com/blog/install-and-evaluation-of-yahoos-kafka-manager
    
-   Tips & Tricks to install "scala" and "sbt" :
-   
-   https://stackoverflow.com/questions/35529913/how-to-install-sbt-on-ubuntu-debian-with-apt-get
+   With script from : https://packagecloud.io/spuder/kafka-manager/install and `apt-get install kafka-manager`
    
    
 3. Install Node.js and front-end apps
