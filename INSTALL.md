@@ -32,4 +32,4 @@
 
    http://whatizee.blogspot.de/2015/02/nodejs-kafka-producer-using-kafka-node.html
    
-4. Local CF VM machine install script : https://github.com/yudai/cf_nise_installer
+4. Local CF VM machine install script : https://github.com/pivotal-cf/pcfdev
