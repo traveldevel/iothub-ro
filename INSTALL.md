@@ -4,18 +4,17 @@
 
 2. Configure Hadoop, Zookeper and Kafka cluster services
 
-3. Install Kafka Manager on port 9001 : 
-
-   Don't forget to edit `/etc/kafka-manager/application.conf`
-   
-   start with `kafka-manager -Dconfig.file=/etc/kafka-manager/application.conf -Dhttp.port=9001`
+3. Install Kafka Manager as a Docker container on port 9000
 
    Links : 
    
    https://github.com/yahoo/kafka-manager
    
+   https://github.com/sheepkiller/kafka-manager-docker
+   
    Install script from : https://packagecloud.io/spuder/kafka-manager/install and `apt-get install kafka-manager`
    
+   Custom Start Command : `kafka-manager -Dconfig.file=/etc/kafka-manager/application.conf -Dhttp.port=9001`
    
 3. Install Node.js and front-end apps
 
