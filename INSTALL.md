@@ -25,3 +25,9 @@
    3.3. UI5 front end app
    
    3.4. Analytics app
+   
+   Example node.js kafka apps : 
+   
+   https://github.com/SOHU-Co/kafka-node
+
+   http://whatizee.blogspot.de/2015/02/nodejs-kafka-producer-using-kafka-node.html
