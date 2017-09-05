@@ -4,6 +4,12 @@
 
 2. Configure Hadoop, Zookeper and Kafka cluster services
 
+3. Install Kafka Manager 
+   
+   https://github.com/yahoo/kafka-manager
+
+   http://edbaker.weebly.com/blog/install-and-evaluation-of-yahoos-kafka-manager
+   
 3. Install Node.js and front-end apps
 
    3.1. Node.js ingestion to hotstore and coldstore and event generation app
