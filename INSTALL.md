@@ -31,3 +31,5 @@
    https://github.com/SOHU-Co/kafka-node
 
    http://whatizee.blogspot.de/2015/02/nodejs-kafka-producer-using-kafka-node.html
+   
+4. Local CF VM machine install script : https://github.com/yudai/cf_nise_installer
