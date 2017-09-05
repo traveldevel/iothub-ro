@@ -4,7 +4,7 @@
 
 2. Configure Hadoop, Zookeper and Kafka cluster services
 
-3. Install Kafka Manager 
+3. Install Kafka Manager on port 9000
    
    https://github.com/yahoo/kafka-manager
 
