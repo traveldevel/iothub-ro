@@ -10,6 +10,11 @@
 
    http://edbaker.weebly.com/blog/install-and-evaluation-of-yahoos-kafka-manager
    
+   Tips & Tricks to install "scala" and "sbt" :
+   
+   https://stackoverflow.com/questions/35529913/how-to-install-sbt-on-ubuntu-debian-with-apt-get
+   
+   
 3. Install Node.js and front-end apps
 
    3.1. Node.js ingestion to hotstore and coldstore and event generation app
