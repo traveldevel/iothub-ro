@@ -4,6 +4,8 @@
 
 2. Configure Hadoop, Zookeper and Kafka cluster services
 
+Change the the "listeners" property from Kafka Borker to the Hostname/IP
+
 3. Install Kafka Manager as a Docker container on port 9000 and run with `docker run -it --rm  -p 9000:9000 -e ZK_HOSTS="172.16.43.128:2181" -e APPLICATION_SECRET=admin sheepkiller/kafka-manager`
 
    Other Links : 
