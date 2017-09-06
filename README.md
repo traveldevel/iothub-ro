@@ -16,13 +16,13 @@ Data Ingestion - Node.js REST API -> Kafka Broker
 
 Hot Store - Mongo DB (TO DO in version 0.1)
 
+Backend APIs for front end - Node.js REST (TO DO in version 0.1)
+
 Cold Store - Hadoop HDFS (TO DO in version 0.2)
 
 Event Processing - Node.js app that checks (TO DO in version 0.3)
 
-Frontend web app - UI5
-
-Backend APIs for front end - Node.js REST
+Frontend web app - UI5 (TO DO in version 0.4)
 
 # Kafka Topics (for each Project specific to a Tenant of a Landscape)
 
