@@ -4,10 +4,10 @@ Install steps for each landscape : [here](INSTALL.md)
 
 # Architecture Hierarchy
 
- - Landscapes (example : shared1)
- - Tenants (example : myaccount)
- - Projects (example : vehicle-tracking)
- - Device groups (example : buses)
+ - Landscapes (example : shared1, string used in hostname for routing only)
+ - Tenants (example : myaccount, TENANT_ID is GUID)
+ - Projects (example : vehicle-tracking, PROJECT_ID is GUID)
+ - Device groups (example : buses, DEVICE_GROUP_ID is GUID)
  - Devices (DEVICE_ID is GUID)
 
 # Technologies Used
