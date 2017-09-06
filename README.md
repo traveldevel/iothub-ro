@@ -5,7 +5,7 @@ Install steps for each landscape : [here](INSTALL.md)
 # Architecture Hierarchy
 
  - Landscapes (example : shared1)
- - Tenants (example : myaccount)
+ - Tenants - each tenant has a diferent partition in Kafka (example tenant no as integer only : 0, 1, 2, 3, 4)
  - Projects (example : vehicle-tracking)
  - Device groups (example : buses)
  - Devices (DEVICE_ID is GUID)
