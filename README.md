@@ -6,7 +6,7 @@ Install steps for each landscape : [here](INSTALL.md)
 
  - Landscapes (example : shared1)
  - Tenants (example : myaccount)
- - Projects (example : vehicle-tracking) - each project has a different Kafka partition in Topic
+ - Projects (example : vehicle-tracking)
  - Device groups (example : buses)
  - Devices (DEVICE_ID is GUID)
 
