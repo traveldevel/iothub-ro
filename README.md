@@ -13,10 +13,15 @@ Install steps for each landscape : [here](INSTALL.md)
 # Technologies Used
 
 Data Ingestion - Node.js REST API -> Kafka Broker
+
 Hot Store - Mongo DB (TO DO in version 0.1)
+
 Cold Store - Hadoop HDFS (TO DO in version 0.2)
+
 Event Processing - Node.js app that checks (TO DO in version 0.3)
+
 Frontend web app - UI5
+
 Backend APIs for front end - Node.js REST
 
 # Kafka Topics (for each landscape)
