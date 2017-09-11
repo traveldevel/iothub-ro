@@ -1,25 +1,25 @@
 
-# Fields for "projects"
+# Fields for "<TENANT_NAME>_project"
 
 - guid
 - name
 - description
 
-# Fields for "groups"
+# Fields for "<TENANT_NAME>_device_group"
 
 - guid
 - project (guid)
 - name
 - description
 
-# Fields for "device_schemas"
+# Fields for "<TENANT_NAME>_device_schema"
 
 - guid
 - project (guid)
 - name
 - values ( key = type pair list)
 
-# Fields for "devices"
+# Fields for "<TENANT_NAME>_device"
 
 - guid
 - project (guid)
@@ -31,7 +31,7 @@
 - lastContact (datetime)
 - validateSchema (if any : guid)
 
-# Fields for "locations"
+# Fields for "<TENANT_NAME>_location"
 
 - guid
 - project (guid)
@@ -44,7 +44,7 @@
 - recordedTime (datetime)
 - createdAt (datetime)
 
-# Fields for "rawdata"
+# Fields for "<TENANT_NAME>_rawdata"
 
 - guid
 - project (guid)
@@ -53,3 +53,10 @@
 - values ( key = value pair list)
 - recordedTime (datetime)
 - createdAt (datetime)
+
+# Fields for "<TENANT_NAME>_user"
+
+- guid
+- name
+- password
+- roles
