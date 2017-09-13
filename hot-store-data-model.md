@@ -1,4 +1,9 @@
 
+## Fields for "tenants_list"
+
+- _id
+- tenant_name
+
 ## Fields for "<TENANT_NAME>_project"
 
 - _id
