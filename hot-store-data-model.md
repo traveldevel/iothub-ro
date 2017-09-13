@@ -1,5 +1,5 @@
 
-## Fields for "tenants_list"
+## Fields for "tenants"
 
 - _id
 - tenant_name
