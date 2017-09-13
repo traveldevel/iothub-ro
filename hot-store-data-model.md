@@ -1,25 +1,25 @@
 
-# Fields for "<TENANT_NAME>_project"
+## Fields for "<TENANT_NAME>_project"
 
 - _id
 - project_name
 - description
 
-# Fields for "<TENANT_NAME>_device_group"
+## Fields for "<TENANT_NAME>_device_group"
 
 - _id
 - project (_id)
 - group_name
 - description
 
-# Fields for "<TENANT_NAME>_device_schema"
+## Fields for "<TENANT_NAME>_device_schema"
 
 - _id
 - project (_id)
 - schema_name
 - values ( key = type pair list)
 
-# Fields for "<TENANT_NAME>_device"
+## Fields for "<TENANT_NAME>_device"
 
 - _id
 - project (_id)
@@ -31,7 +31,7 @@
 - lastContact (datetime)
 - validateSchema (if any : _id)
 
-# Fields for "<TENANT_NAME>_location"
+## Fields for "<TENANT_NAME>_location"
 
 - _id
 - project (_id)
@@ -44,7 +44,7 @@
 - recordedTime (datetime)
 - createdAt (datetime)
 
-# Fields for "<TENANT_NAME>_raw_data"
+## Fields for "<TENANT_NAME>_raw_data"
 
 - _id
 - project (_id)
@@ -55,15 +55,15 @@
 - recordedTime (datetime)
 - createdAt (datetime)
 
-# Fields for "<TENANT_NAME>_event"
+## Fields for "<TENANT_NAME>_event"
 
 To Do
 
-# Fields for "<TENANT_NAME>_command"
+## Fields for "<TENANT_NAME>_command"
 
 To Do
 
-# Fields for "<TENANT_NAME>_user"
+## Fields for "<TENANT_NAME>_user"
 
 - _id
 - name
