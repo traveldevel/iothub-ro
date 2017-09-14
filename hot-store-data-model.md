@@ -29,38 +29,39 @@
 ## Fields for "<TENANT_NAME>_device"
 
 - _id
-- project (_id)
-- device_group (_id)
+- project_id (_id)
+- device_group_id (_id)
 - device_name
-- authToken (auto _id) 
+- auth_token (auto _id) 
 - description
-- createdAt (datetime)
-- lastContact (datetime)
-- validateSchema (if any : _id)
+- created_at (datetime)
+- last_contact (datetime)
+- mandatory_schema_id (_id)
+- validate_schema (if any : _id)
 
 ## Fields for "<TENANT_NAME>_location"
 
 - _id
-- project (_id)
-- group (_id)
-- device (_id)
+- project_id (_id)
+- group_id (_id)
+- device_id (_id)
 - latitude (decimal)
 - longitude (decimal)
 - accuracy (int)
 - speed (int)
-- recordedTime (datetime)
-- createdAt (datetime)
+- recorded_time (datetime)
+- created_at (datetime)
 
 ## Fields for "<TENANT_NAME>_raw_data"
 
 - _id
-- project (_id)
-- group (_id)
-- device_group (_id)
-- device (_id)
+- project_id (_id)
+- group_id (_id)
+- device_group_id (_id)
+- device_id (_id)
 - values ( key = value pair list)
-- recordedTime (datetime)
-- createdAt (datetime)
+- recorded_time (datetime)
+- created_at (datetime)
 
 ## Fields for "<TENANT_NAME>_event"
 
