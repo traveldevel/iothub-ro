@@ -75,7 +75,15 @@
 
 ## Fields for "<TENANT_NAME>_command"
 
-To Do
+- _id
+- project_id (_id)
+- group_id (_id)
+- device_id (_id)
+- type
+- command
+- created_at (datetime)
+- read_at (datetime)
+- confirmed_at (datetime)
 
 ## Fields for "<TENANT_NAME>_user"
 
