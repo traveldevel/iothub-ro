@@ -64,7 +64,14 @@
 
 ## Fields for "<TENANT_NAME>_event"
 
-To Do
+- _id
+- project_id (_id)
+- group_id (_id)
+- device_id (_id)
+- type
+- text
+- dismissed (bool)
+- user_id (_id)
 
 ## Fields for "<TENANT_NAME>_command"
 
