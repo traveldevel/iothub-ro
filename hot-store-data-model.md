@@ -30,7 +30,7 @@
 
 - _id
 - project_id (_id)
-- device_group_id (_id)
+- group_id (_id)
 - device_name
 - auth_token (auto _id) 
 - description
