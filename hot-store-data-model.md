@@ -3,6 +3,7 @@
 
 - _id
 - tenant_name
+- tenant_secret (guid)
 
 ## Fields for "<TENANT_NAME>_project"
 
