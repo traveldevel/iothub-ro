@@ -23,6 +23,7 @@
 - _id
 - project (_id)
 - schema_name
+- description
 - values ( key = type pair list)
 
 ## Fields for "<TENANT_NAME>_device"
