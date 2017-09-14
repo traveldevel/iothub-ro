@@ -37,7 +37,7 @@
 - created_at (datetime)
 - last_contact (datetime)
 - mandatory_schema_id (_id)
-- validate_schema (if any : _id)
+- validate_schema (bool)
 
 ## Fields for "<TENANT_NAME>_location"
 
