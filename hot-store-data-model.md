@@ -57,7 +57,6 @@
 - _id
 - project_id (_id)
 - group_id (_id)
-- device_group_id (_id)
 - device_id (_id)
 - values ( key = value pair list)
 - recorded_time (datetime)
