@@ -82,7 +82,6 @@
 - type
 - command
 - created_at (datetime)
-- read_at (datetime)
 - confirmed_at (datetime)
 
 ## Fields for "<TENANT_NAME>_user"
