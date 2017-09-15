@@ -1,4 +1,8 @@
-# Install steps
+## Managed Kafka Service for free : 
+
+https://customer.cloudkarafka.com/instance/create?plan=ducky
+
+## Install steps own Kafka
 
 1. Ubuntu x64 vms for "ambari-server" and "ambari-agent" (min 3 machines)
 
