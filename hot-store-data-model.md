@@ -85,7 +85,7 @@
 - operator (eq, ne, gt, le, in)
 - operator_reference (as string)
 
-* all rules apply (project, group and device)
+Obs : all rules apply (project, group and device)
 
 ## Fields for "<TENANT_NAME>_command"
 
