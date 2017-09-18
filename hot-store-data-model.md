@@ -4,6 +4,8 @@
 - _id
 - tenant_name
 - tenant_secret (guid)
+- tenant_hdfs_coldstore (bool)
+- tenant_rule_processing (bool)
 
 ## Fields for "<TENANT_NAME>_project"
 
@@ -72,6 +74,18 @@
 - text
 - dismissed (bool)
 - user_id (_id)
+
+## Fields for "<TENANT_NAME>_event_rule"
+
+- _id
+- device_id (_id) - optional, if present : device rule
+- group_id (_id) - optional, if present : group rule
+- project_id (_id) - optional, if present : project_rule
+- rule_name
+- operator (eq, ne, gt, le, in)
+- operator_reference (as string)
+
+* all rules apply (project, group and device)
 
 ## Fields for "<TENANT_NAME>_command"
 
