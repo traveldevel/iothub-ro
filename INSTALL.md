@@ -8,11 +8,11 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
 
    https://docs.hortonworks.com/HDPDocuments/Ambari-2.5.2.0/bk_ambari-installation/content/download_the_ambari_repo_ubuntu16.html
 
-   open ports : 3000, 6188, 6667, 8080, 8440, 8441, 8670
+   open ports : 3000, 6188, 8080, 8440, 8441, 8670, 9093
 
 2. Configure Hadoop, Zookeper and Kafka cluster services
 
-   Change the the "listeners" property from Kafka Borker to the Hostname, port 6667
+   Change the the "listeners" property from Kafka Borker to the PLAINTEXT://hostname:9093
 
 3. Install Kafka Manager as a Docker container on port 9000 and run with 
 
