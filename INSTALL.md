@@ -22,6 +22,8 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
    
    2. Install script from : https://packagecloud.io/spuder/kafka-manager/install and `apt-get install kafka-manager`
    
+   You may need to instal default jre : `sudo apt-get install default-jre`
+   
    Custom Start Command : `kafka-manager -Dconfig.file=/etc/kafka-manager/application.conf -Dhttp.port=9001`
    
    
