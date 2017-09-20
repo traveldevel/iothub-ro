@@ -6,6 +6,8 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
 
 1. Ubuntu x64 vms for "ambari-server" and "ambari-agent" (min 3 machines)
 
+https://docs.hortonworks.com/HDPDocuments/Ambari-2.5.2.0/bk_ambari-installation/content/download_the_ambari_repo_ubuntu16.html
+
 2. Configure Hadoop, Zookeper and Kafka cluster services
 
    Change the the "listeners" property from Kafka Borker to the Hostname/IP
