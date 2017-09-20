@@ -24,7 +24,7 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
    
    You may need to instal default jre : `sudo apt-get install default-jre`
    
-   Custom Start Command : `kafka-manager -Dconfig.file=/etc/kafka-manager/application.conf -Dhttp.port=9001`
+   Custom Start Command : `sudo kafka-manager -Dconfig.file=/etc/kafka-manager/application.conf -Dhttp.port=9001`
    
    
    Other links : 
