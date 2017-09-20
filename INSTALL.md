@@ -13,6 +13,8 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
 2. Configure Hadoop, Zookeper and Kafka cluster services
 
    Change the the "listeners" property from Kafka Borker to the PLAINTEXT://hostname:9093
+   
+   Change port to 9093
 
 3. Install Kafka Manager as a Docker container on port 9000 and run with 
 
