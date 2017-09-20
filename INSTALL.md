@@ -16,17 +16,20 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
 
 3. Install Kafka Manager as a Docker container on port 9000 and run with 
 
-   `docker run -it --rm  -p 9000:9000 -e ZK_HOSTS="172.16.43.128:2181" -e APPLICATION_SECRET=admin sheepkiller/kafka-manager`
+   1. `docker run -it --rm  -p 9000:9000 -e ZK_HOSTS="172.16.43.128:2181" -e APPLICATION_SECRET=admin sheepkiller/kafka-manager`
 
-   Other Links : 
+   or 
+   
+   2. Install script from : https://packagecloud.io/spuder/kafka-manager/install and `apt-get install kafka-manager`
+   
+   Custom Start Command : `kafka-manager -Dconfig.file=/etc/kafka-manager/application.conf -Dhttp.port=9001`
+   
+   
+   Other links : 
    
    https://github.com/yahoo/kafka-manager
    
    https://github.com/sheepkiller/kafka-manager-docker
-   
-   Install script from : https://packagecloud.io/spuder/kafka-manager/install and `apt-get install kafka-manager`
-   
-   Custom Start Command : `kafka-manager -Dconfig.file=/etc/kafka-manager/application.conf -Dhttp.port=9001`
    
 3. Install Node.js and front-end apps
 
