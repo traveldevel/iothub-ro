@@ -8,7 +8,7 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
 
    https://docs.hortonworks.com/HDPDocuments/Ambari-2.5.2.0/bk_ambari-installation/content/download_the_ambari_repo_ubuntu16.html
 
-   open ports : 3000, 6188, 8080, 8440, 8441, 8670, 9093
+   open ports : 3000, 6188, 8080, 8440, 8441, 8670, 9093, 9001
 
 2. Configure Hadoop, Zookeper and Kafka cluster services
 
@@ -18,7 +18,7 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
 
    1. `docker run -it --rm  -p 9000:9000 -e ZK_HOSTS="172.16.43.128:2181" -e APPLICATION_SECRET=admin sheepkiller/kafka-manager`
 
-   or 
+   or (on the same ambari server virtual machine)
    
    2. Install script from : https://packagecloud.io/spuder/kafka-manager/install and `apt-get install kafka-manager`
    
