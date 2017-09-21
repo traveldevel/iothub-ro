@@ -10,7 +10,7 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
 
    open ports : 3000, 6667, 6188, 8020, 8080, 8440, 8441, 8670, 9093, 9001
    
-   Set up `/etc/hostname` and `/etc/hosts`
+   Use local host (not full host) - see from original `/etc/hostname`
 
 2. Configure Hadoop, Zookeper and Kafka cluster services
 
