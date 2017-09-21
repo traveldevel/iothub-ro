@@ -1,12 +1,12 @@
-## Managed Kafka Service for free : 
+## Managed Kafka Service for free (with SSL only) : 
 
 https://customer.cloudkarafka.com/instance/create?plan=ducky
 
-## Install steps own Kafka - v1
+## Install steps own Kafka - v1 - fastest
 
 https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-14-04
 
-## Install steps own Kafka - v2
+## Install steps own Kafka - v2 (bonus hadoop and ambari)
 
 1. Ubuntu x64 - 14.04 LTS !!! vms for "ambari-server" and "ambari-agent" (min 3 machines)
 
