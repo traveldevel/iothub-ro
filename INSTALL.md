@@ -16,9 +16,9 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
    
    Change port to 9093
 
-3. Install Kafka Manager as a Docker container on port 9000 and run with 
+3. Install Kafka Manager as a Docker container on port 9001 and run with 
 
-   1. `docker run -it --rm  -p 9000:9000 -e ZK_HOSTS="172.16.43.128:2181" -e APPLICATION_SECRET=admin sheepkiller/kafka-manager`
+   1. `docker run -it --rm  -p 9000:9001 -e ZK_HOSTS="172.16.43.128:2181" -e APPLICATION_SECRET=admin sheepkiller/kafka-manager`
 
    or (on the same ambari server virtual machine)
    
