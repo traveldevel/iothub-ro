@@ -7,6 +7,8 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
 1. Ubuntu x64 vms for "ambari-server" and "ambari-agent" (min 3 machines)
 
    https://docs.hortonworks.com/HDPDocuments/Ambari-2.5.2.0/bk_ambari-installation/content/download_the_ambari_repo_ubuntu16.html
+   
+   https://cwiki.apache.org/confluence/display/AMBARI/Quick+Start+for+New+VM+Users#QuickStartforNewVMUsers-InstallAmbariontheVirtualMachines
 
    open ports : 3000, 6667, 6188, 8020, 8080, 8440, 8441, 8670, 9093, 9001
    
