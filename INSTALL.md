@@ -4,7 +4,7 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
 
 ## Install steps own Kafka
 
-1. Ubuntu x64 vms for "ambari-server" and "ambari-agent" (min 3 machines)
+1. Ubuntu x64 - 14.04 LTS !!! vms for "ambari-server" and "ambari-agent" (min 3 machines)
 
    https://docs.hortonworks.com/HDPDocuments/Ambari-2.5.2.0/bk_ambari-installation/content/download_the_ambari_repo_ubuntu16.html
    
@@ -18,7 +18,7 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
    
    Use full host name with domain when configurings cluster hosts
 
-2. Configure Hadoop, Zookeper and Kafka cluster services
+2. Configure Hadoop - HDP 2.4 !!!, Zookeper and Kafka cluster services
 
    Change the the "listeners" property from Kafka Broker to the PLAINTEXT://hostname:9093
    
