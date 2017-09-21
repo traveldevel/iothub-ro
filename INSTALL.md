@@ -8,7 +8,7 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
 
    https://docs.hortonworks.com/HDPDocuments/Ambari-2.5.2.0/bk_ambari-installation/content/download_the_ambari_repo_ubuntu16.html
 
-   open ports : 3000, 6188, 8080, 8440, 8441, 8670, 9093, 9001
+   open ports : 3000, 6188, 8020, 8080, 8440, 8441, 8670, 9093, 9001
 
 2. Configure Hadoop, Zookeper and Kafka cluster services
 
