@@ -6,6 +6,8 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
 
 https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-14-04
 
+Open ports : 2181, 9092, 2888, 3888
+
 Install script from : https://packagecloud.io/spuder/kafka-manager/install and `apt-get install kafka-manager`
 
 You may need to instal default jre : `sudo apt-get install default-jre`
