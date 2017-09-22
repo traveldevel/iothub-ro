@@ -6,6 +6,8 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
 
 https://docs.bitnami.com/virtual-machine/infrastructure/kafka/
 
+https://packagecloud.io/spuder/kafka-manager
+
 ## Install steps own Kafka - v1 - fast
 
 https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-14-04
