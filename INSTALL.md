@@ -6,6 +6,8 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
 
 https://docs.bitnami.com/virtual-machine/infrastructure/kafka/
 
+http://www.scala-sbt.org/release/docs/Installing-sbt-on-Linux.html
+
 http://chennaihug.org/knowledgebase/yahoo-kafka-manager/
 
 if updated in the future : https://packagecloud.io/spuder/kafka-manager
