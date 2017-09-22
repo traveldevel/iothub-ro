@@ -45,9 +45,14 @@ Custom Start Command : `sudo kafka-manager -Dconfig.file=/etc/kafka-manager/appl
    
    https://github.com/sheepkiller/kafka-manager-docker
    
-## Install Node.js CF apps front-end / backend / workers
+## Create CF landscape apps front-end / backend / workers
 
-   0. Create tenant script and prerequired MongoDB Service
+   0. Establish : 
+      * Name of the landscape
+      * Name of the tenant
+      * Create prerequired MongoDB service 
+      * Deploy mongo-express Node.js app to administer MongoDB data
+      * Deploy CF Node.js app that creates tenant
    
    1. Node.js API - data ingestion to kafka (REST)
    
