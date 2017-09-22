@@ -10,6 +10,16 @@ http://www.scala-sbt.org/release/docs/Installing-sbt-on-Linux.html
 
 http://chennaihug.org/knowledgebase/yahoo-kafka-manager/
 
+Edit your Kafka configuration file `/opt/bitnami/kafka/config/server.properties`
+
+```
+delete.topic.enable=true
+auto.create.topics.enable=true
+...
+advertised.listeners=PLAINTEXT://iothubkafkashared.westeurope.cloudapp.azure.com:9092
+advertised.host.name=iothubkafkashared.westeurope.cloudapp.azure.com
+```
+
 if updated in the future : https://packagecloud.io/spuder/kafka-manager
 
 ## Install steps own Kafka - v1 - fast
