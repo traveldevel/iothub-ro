@@ -6,7 +6,9 @@ https://customer.cloudkarafka.com/instance/create?plan=ducky
 
 https://docs.bitnami.com/virtual-machine/infrastructure/kafka/
 
-https://packagecloud.io/spuder/kafka-manager
+http://chennaihug.org/knowledgebase/yahoo-kafka-manager/
+
+if updated in the future : https://packagecloud.io/spuder/kafka-manager
 
 ## Install steps own Kafka - v1 - fast
 
