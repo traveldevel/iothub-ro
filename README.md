@@ -12,7 +12,7 @@ Install steps for each landscape : [here](INSTALL.md)
  - Device groups (example : phones)
  - Devices
 
-## Topic Detailed :
+## Detailed Links by Topic :
 
 [Data Ingestion Processing Overview](https://github.com/traveldevel/iothub-ro/blob/master/data-ingestion-processing.md)
 
