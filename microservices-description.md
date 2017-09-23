@@ -14,7 +14,7 @@
   ### 3. Rules, Events and Commands OData Service (named : iot-hub-event-odata-LANDSCAPE-TENANT)
   
   
-  ### 4. Locations OData Service (named : iot-hub-location-odata-LANDSCAPE-TENANT>) 
+  ### 4. Locations OData Service (named : iot-hub-location-odata-LANDSCAPE-TENANT) 
 
 
 ## MongoDB services or DBs in each landscape (common for all tenants)
@@ -25,7 +25,7 @@
   
   ### 3. MongoDB for Rules, Events and Commands (named : iot_hub_mongo_events_LANDSCAPE_TENANT)
   
-  ### 4. MongoDB for Locations (named :  iot_hub_mongo_location_LANDSCAPE_TENANT>) 
+  ### 4. MongoDB for Locations (named :  iot_hub_mongo_location_LANDSCAPE_TENANT) 
   
   
   * Note : LANDSCAPE, TENANT replaceable with real names 
