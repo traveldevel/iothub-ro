@@ -1,11 +1,13 @@
 
 # Hot Store - Mongo DB - dbs / CF services
 
+Only 1 instance of each Mongo Service used for the whole LANDSCAPE
+
 Administered with one `mongo-express` CF app instance
 
-## 1.  Metadata (named : iot_hub_mongo_metadata_LANDSCAPE_TENANT)
+## 1.  Metadata (named : iot_hub_mongo_metadata_LANDSCAPE)
 
-Used for all the metadata models and used by the metadata service
+Used for all the metadata models and used by the metadata service.
 
 ### Fields for "tenants"
 
