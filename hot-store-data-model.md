@@ -1,5 +1,13 @@
 
-## Fields for "tenants"
+# Hot Store - Mongo DB - dbs / CF services
+
+Administered with one `mongo-express` CF app instance
+
+## 1.  Metadata (named : iot_hub_mongo_metadata_LANDSCAPE_TENANT)
+
+Used for all the metadata models and used by the metadata service
+
+### Fields for "tenants"
 
 - _id
 - tenant_name
@@ -7,20 +15,27 @@
 - tenant_hdfs_coldstore (bool)
 - tenant_rule_processing (bool)
 
-## Fields for "<TENANT_NAME>_project"
+### Fields for "<TENANT_NAME>_user"
+
+- _id
+- name
+- password
+- roles
+
+### Fields for "<TENANT_NAME>_project"
 
 - _id
 - project_name
 - description
 
-## Fields for "<TENANT_NAME>_device_group"
+### Fields for "<TENANT_NAME>_device_group"
 
 - _id
 - project (_id)
 - group_name
 - description
 
-## Fields for "<TENANT_NAME>_device_schema"
+### Fields for "<TENANT_NAME>_device_schema"
 
 - _id
 - project (_id)
@@ -28,7 +43,7 @@
 - description
 - values ( key = type pair list)
 
-## Fields for "<TENANT_NAME>_device"
+### Fields for "<TENANT_NAME>_device"
 
 - _id
 - project_id (_id)
@@ -41,20 +56,9 @@
 - mandatory_schema_id (_id)
 - validate_schema (bool)
 
-## Fields for "<TENANT_NAME>_location"
+## 2.  Raw Data (iot_hub_mongo_rawdata_LANDSCAPE_TENANT)
 
-- _id
-- project_id (_id)
-- group_id (_id)
-- device_id (_id)
-- latitude (decimal)
-- longitude (decimal)
-- accuracy (int)
-- speed (int)
-- recorded_time (datetime)
-- created_at (datetime)
-
-## Fields for "<TENANT_NAME>_raw_data"
+### Fields for "<TENANT_NAME>_raw_data"
 
 - _id
 - project_id (_id)
@@ -64,7 +68,9 @@
 - recorded_time (datetime)
 - created_at (datetime)
 
-## Fields for "<TENANT_NAME>_event"
+## 3.  Rules, Events and Commands (iot_hub_mongo_events_LANDSCAPE_TENANT)
+
+### Fields for "<TENANT_NAME>_event"
 
 - _id
 - project_id (_id)
@@ -75,7 +81,7 @@
 - dismissed (bool)
 - user_id (_id)
 
-## Fields for "<TENANT_NAME>_event_rule"
+### Fields for "<TENANT_NAME>_event_rule"
 
 - _id
 - device_id (_id) - optional, if present : device rule
@@ -87,7 +93,7 @@
 
 Obs : all rules apply (project, group and device)
 
-## Fields for "<TENANT_NAME>_command"
+### Fields for "<TENANT_NAME>_command"
 
 - _id
 - project_id (_id)
@@ -98,9 +104,17 @@ Obs : all rules apply (project, group and device)
 - created_at (datetime)
 - confirmed_at (datetime)
 
-## Fields for "<TENANT_NAME>_user"
+## 4.  Locations (iot_hub_mongo_location_LANDSCAPE_TENANT)
+
+### Fields for "<TENANT_NAME>_location"
 
 - _id
-- name
-- password
-- roles
+- project_id (_id)
+- group_id (_id)
+- device_id (_id)
+- latitude (decimal)
+- longitude (decimal)
+- accuracy (int)
+- speed (int)
+- recorded_time (datetime)
+- created_at (datetime)
