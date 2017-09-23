@@ -1,5 +1,7 @@
 # Scalable data ingestion from device
 
+Each LANSCAPE has its own Kafka Instance
+
 ## Kafka Topics (for each Project specific to a Tenant of a Landscape)
 
 1. <PROJECT_ID>_device_raw_data (data sent to a Node.js REST api)
