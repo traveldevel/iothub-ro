@@ -15,27 +15,27 @@ Used for all the metadata models and used by the metadata service
 - tenant_hdfs_coldstore (bool)
 - tenant_rule_processing (bool)
 
-### Fields for "<TENANT_NAME>_user"
+### Fields for "TENANT_user"
 
 - _id
 - name
 - password
 - roles
 
-### Fields for "<TENANT_NAME>_project"
+### Fields for "TENANT_project"
 
 - _id
 - project_name
 - description
 
-### Fields for "<TENANT_NAME>_device_group"
+### Fields for "TENANT_device_group"
 
 - _id
 - project (_id)
 - group_name
 - description
 
-### Fields for "<TENANT_NAME>_device_schema"
+### Fields for "TENANT_device_schema"
 
 - _id
 - project (_id)
@@ -43,7 +43,7 @@ Used for all the metadata models and used by the metadata service
 - description
 - values ( key = type pair list)
 
-### Fields for "<TENANT_NAME>_device"
+### Fields for "TENANT_device"
 
 - _id
 - project_id (_id)
@@ -58,7 +58,7 @@ Used for all the metadata models and used by the metadata service
 
 ## 2.  Raw Data (iot_hub_mongo_rawdata_LANDSCAPE_TENANT)
 
-### Fields for "<TENANT_NAME>_raw_data"
+### Fields for "TENANT_raw_data"
 
 - _id
 - project_id (_id)
@@ -70,7 +70,7 @@ Used for all the metadata models and used by the metadata service
 
 ## 3.  Rules, Events and Commands (iot_hub_mongo_events_LANDSCAPE_TENANT)
 
-### Fields for "<TENANT_NAME>_event"
+### Fields for "TENANT_event"
 
 - _id
 - project_id (_id)
@@ -81,7 +81,7 @@ Used for all the metadata models and used by the metadata service
 - dismissed (bool)
 - user_id (_id)
 
-### Fields for "<TENANT_NAME>_event_rule"
+### Fields for "TENANT_event_rule"
 
 - _id
 - device_id (_id) - optional, if present : device rule
@@ -93,7 +93,7 @@ Used for all the metadata models and used by the metadata service
 
 Obs : all rules apply (project, group and device)
 
-### Fields for "<TENANT_NAME>_command"
+### Fields for "TENANT_command"
 
 - _id
 - project_id (_id)
@@ -106,7 +106,7 @@ Obs : all rules apply (project, group and device)
 
 ## 4.  Locations (iot_hub_mongo_location_LANDSCAPE_TENANT)
 
-### Fields for "<TENANT_NAME>_location"
+### Fields for "TENANT_location"
 
 - _id
 - project_id (_id)
