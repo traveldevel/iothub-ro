@@ -7,6 +7,11 @@
 3. Create MongoDb service : `iot_hub_mongo_shared_new_rawdata`
 4. Create MongoDb service : `iot_hub_mongo_shared_new_location`
 5. Create MongoDb service : `iot_hub_mongo_shared_new_event`
+6. Deploy app : `https://github.com/traveldevel/iot-hub-create-tenant`
+7. Deploy app : `https://github.com/traveldevel/iot-hub-service-odata-metadata`
+8. Deploy app : `https://github.com/traveldevel/iot-hub-service-odata-rawdata`
+9. Deploy app : `https://github.com/traveldevel/iot-hub-service-odata-location`
+10. Deploy app : `https://github.com/traveldevel/iot-hub-service-odata-event`
 
 ## Managed Kafka Service for free (with SSL only) : 
 
