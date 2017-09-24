@@ -1,4 +1,4 @@
-## Cloud Foundry TENANT install ops
+## Cloud Foundry TENANT install ops (developed and tested on https://run.pivotal.io/)
 
 0. Create org : `iot_hub_LANDSCAPE`
 1. Create space : `iot_hub_TENANT`
