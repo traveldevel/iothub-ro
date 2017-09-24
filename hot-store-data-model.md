@@ -1,11 +1,9 @@
 
 # Hot Store - Mongo DB - dbs / CF services
 
-Only 1 instance of each Mongo Service used for the whole LANDSCAPE
-
 Administered with one `mongo-express` CF app instance
 
-## 1.  Metadata (named : iot_hub_mongo_metadata_LANDSCAPE)
+## 1.  Metadata (named : iot_hub_mongo_metadata_LANDSCAPE_TENANT)
 
 Used for all the metadata models and used by the metadata service.
 
@@ -58,7 +56,7 @@ Used for all the metadata models and used by the metadata service.
 - mandatory_schema_id (_id)
 - validate_schema (bool)
 
-## 2.  Raw Data (iot_hub_mongo_rawdata_LANDSCAPE)
+## 2.  Raw Data (iot_hub_mongo_rawdata_LANDSCAPE_TENANT)
 
 ### Fields for "TENANT_raw_data"
 
@@ -70,7 +68,7 @@ Used for all the metadata models and used by the metadata service.
 - recorded_time (datetime)
 - created_at (datetime)
 
-## 3.  Rules, Events and Commands (iot_hub_mongo_events_LANDSCAPE)
+## 3.  Rules, Events and Commands (iot_hub_mongo_events_LANDSCAPE_TENANT)
 
 ### Fields for "TENANT_event"
 
@@ -106,7 +104,7 @@ Obs : all rules apply (project, group and device)
 - created_at (datetime)
 - confirmed_at (datetime)
 
-## 4.  Locations (iot_hub_mongo_location_LANDSCAPE)
+## 4.  Locations (iot_hub_mongo_location_LANDSCAPE_TENANT)
 
 ### Fields for "TENANT_location"
 
