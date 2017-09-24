@@ -3,7 +3,7 @@
 
 Administered with one `mongo-express` CF app instance
 
-## 1.  Metadata (named : iot_hub_mongo_metadata_LANDSCAPE_TENANT)
+## 1.  Metadata (named : iot_hub_mongo_LANDSCAPE_TENANT_metadata)
 
 Used for all the metadata models and used by the metadata service.
 
@@ -56,7 +56,7 @@ Used for all the metadata models and used by the metadata service.
 - mandatory_schema_id (_id)
 - validate_schema (bool)
 
-## 2.  Raw Data (iot_hub_mongo_rawdata_LANDSCAPE_TENANT)
+## 2.  Raw Data (iot_hub_mongo_LANDSCAPE_TENANT_rawdata)
 
 ### Fields for "TENANT_raw_data"
 
@@ -68,7 +68,7 @@ Used for all the metadata models and used by the metadata service.
 - recorded_time (datetime)
 - created_at (datetime)
 
-## 3.  Rules, Events and Commands (iot_hub_mongo_events_LANDSCAPE_TENANT)
+## 3.  Rules, Events and Commands (iot_hub_mongo_LANDSCAPE_TENANT_event)
 
 ### Fields for "TENANT_event"
 
@@ -104,7 +104,7 @@ Obs : all rules apply (project, group and device)
 - created_at (datetime)
 - confirmed_at (datetime)
 
-## 4.  Locations (iot_hub_mongo_location_LANDSCAPE_TENANT)
+## 4.  Locations (iot_hub_mongo_LANDSCAPE_TENANT_location)
 
 ### Fields for "TENANT_location"
 
