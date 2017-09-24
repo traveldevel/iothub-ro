@@ -11,7 +11,7 @@
   * Locations OData Service (named : iot-hub-location-odata-LANDSCAPE-TENANT) 
 
 
-### MongoDB services or DBs in each landscape (common for all tenants)
+### MongoDB services or DBs in each landscape and for each tenant
 
   * MongoDB for Metadata (named :  iot_hub_mongo_metadata_LANDSCAPE_TENANT)
   * MongoDB for Raw Data (named :  iot_hub_mongo_rawdata_LANDSCAPE_TENANT)
