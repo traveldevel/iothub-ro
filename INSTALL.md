@@ -1,3 +1,13 @@
+## Cloud Foundry TENANT install ops
+
+0. Create org : 'iot_hub_LANDSCAPE'
+1. Create space : 'iot_hub_TENANT'
+
+2. Create MongoDb service : service iot_hub_mongo_shared_new_metadata
+3. Create MongoDb service : service iot_hub_mongo_shared_new_rawdata
+4. Create MongoDb service : service iot_hub_mongo_shared_new_location
+5. Create MongoDb service : service iot_hub_mongo_shared_new_event
+
 ## Managed Kafka Service for free (with SSL only) : 
 
 https://customer.cloudkarafka.com/instance/create?plan=ducky
