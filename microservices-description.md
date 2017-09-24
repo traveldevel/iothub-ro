@@ -1,4 +1,7 @@
-## Each LANDSCAPE in its own Cloud Foundry Space and Org
+### Deployment description
+
+- Each LANDSCAPE in its own adn different Cloud Foundry Org
+- Each TENANT in its own different Cloud Foundry Space
 
 [How to Create a Node.js MongoDB OData Service](https://www.codeproject.com/Articles/1111490/Create-OData-endpoint-for-MongoDB-on-MEAN-stack)
 
