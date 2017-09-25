@@ -1,5 +1,7 @@
 ## Cloud Foundry TENANT install ops (developed and tested on https://run.pivotal.io/)
 
+Initial tenant steps :
+
 0. Create org : `iot_hub_LANDSCAPE`
 1. Create space : `iot_hub_TENANT`
 
@@ -12,6 +14,8 @@
 7. Deploy app : `https://github.com/traveldevel/iot-hub-create-tenant`
 
 Get from users collection the first user (admin) and it's password and use it as CF env var for folowing 4 app deployes (in the .env file)
+
+Backend Odata Services (as microservices architecture)
 
 8. Deploy app : `https://github.com/traveldevel/iot-hub-service-odata-metadata`
 9. Deploy app : `https://github.com/traveldevel/iot-hub-service-odata-rawdata`
@@ -31,6 +35,14 @@ Using the .env file for the apps (user admin and password), create user provided
 
 15. Create User provided service for event :
 `cf cups iot-hub-service-odata-shared-new-event -p "https://iot-hub-service-odata-shared-new-event.cfapps.io, 80, admin, 17a681cf-e3b1-4dcb-8138-2a73b57d89db"`
+
+Ingestion related apps and tasks :
+
+16. Create a Kafka Server Broker Instance (see below chapter : Bitnami Kafka appliance - v0 - fastest)
+
+17. Deploy ingestion app to Kafka :  `https://github.com/traveldevel/iot-hub-ingestion-rest`
+
+18. Deploy Kafka topic consumer app : `https://github.com/traveldevel/iot-hub-ingestion-processor`
 
 
 ## Managed Kafka Service for free (with SSL only) : 
