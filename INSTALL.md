@@ -10,6 +10,7 @@
 6. Check the newly created MongoDB database indexes on each collection to be present
 
 7. Deploy app : `https://github.com/traveldevel/iot-hub-create-tenant`
+
 Get from users collection the first user (admin) and it's password and use it as CF env var for folowing 4 app deployes (in the .env file)
 
 8. Deploy app : `https://github.com/traveldevel/iot-hub-service-odata-metadata`
