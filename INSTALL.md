@@ -18,14 +18,19 @@ Get from users collection the first user (admin) and it's password and use it as
 11. Deploy app : `https://github.com/traveldevel/iot-hub-service-odata-event`
 
 Using the .env file for the apps (user admin and password), create user provided services :
+
 12. Create User provided service for metadata :
 `cf cups iot-hub-service-odata-shared-new-metadata -p "https://iot-hub-service-odata-shared-new-metadata.cfapps.io, 80, admin, 17a681cf-e3b1-4dcb-8138-2a73b57d89db"`
+
 13. Create User provided service for rawdata :
 `cf cups iot-hub-service-odata-shared-new-rawdata -p "https://iot-hub-service-odata-shared-new-rawdata.cfapps.io, 80, admin, 17a681cf-e3b1-4dcb-8138-2a73b57d89db"`
+
 14. Create User provided service for location :
 `cf cups iot-hub-service-odata-shared-new-location -p "https://iot-hub-service-odata-shared-new-location.cfapps.io, 80, admin, 17a681cf-e3b1-4dcb-8138-2a73b57d89db"`
+
 15. Create User provided service for event :
 `cf cups iot-hub-service-odata-shared-new-event -p "https://iot-hub-service-odata-shared-new-event.cfapps.io, 80, admin, 17a681cf-e3b1-4dcb-8138-2a73b57d89db"`
+
 
 ## Managed Kafka Service for free (with SSL only) : 
 
