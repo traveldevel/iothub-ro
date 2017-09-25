@@ -22,7 +22,12 @@ Get from users collection the first user (admin) and it's password and use it as
 10. Deploy app : `https://github.com/traveldevel/iot-hub-service-odata-location`
 11. Deploy app : `https://github.com/traveldevel/iot-hub-service-odata-event`
 
-#### Using the user name and password from Mongo DB users collection and app url after deploy and create user provided services and enter url/user/pass values:
+#### Create the user provided services out of the 4 apps deployed on steps 8-11
+
+Parameters :
+- url : url of the app that processes the request (after deployment)
+- user : user for basic auth on each app
+- password : password for basic auth on each app
 
 12. Create User provided service for metadata :
 `cf cups iot-hub-service-odata-shared-new-metadata -p "url,user,password"`
