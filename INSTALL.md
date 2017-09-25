@@ -22,19 +22,19 @@ Get from users collection the first user (admin) and it's password and use it as
 10. Deploy app : `https://github.com/traveldevel/iot-hub-service-odata-location`
 11. Deploy app : `https://github.com/traveldevel/iot-hub-service-odata-event`
 
-#### Using the .env file for the apps (user admin and password), create user provided services :
+#### Using the user name and password from Mongo DB users collection create user provided services and enter user/pass values:
 
 12. Create User provided service for metadata :
-`cf cups iot-hub-service-odata-shared-new-metadata -p '{"url":"https://iot-hub-service-odata-shared-new-metadata.cfapps.io", "user":"admin", "password":"17a681cf-e3b1-4dcb-8138-2a73b57d89db"}'`
+`cf cups iot-hub-service-odata-shared-new-metadata -p "user,password" -r https://iot-hub-service-odata-shared-new-metadata.cfapps.io`
 
 13. Create User provided service for rawdata :
-`cf cups iot-hub-service-odata-shared-new-rawdata -p '{"url":"https://iot-hub-service-odata-shared-new-rawdata.cfapps.io", "user":"admin", "password":"17a681cf-e3b1-4dcb-8138-2a73b57d89db"}'`
+`cf cups iot-hub-service-odata-shared-new-rawdata -p "user,password" -r https://iot-hub-service-odata-shared-new-rawdata.cfapps.io`
 
 14. Create User provided service for location :
-`cf cups iot-hub-service-odata-shared-new-location -p '{"url":"https://iot-hub-service-odata-shared-new-location.cfapps.io", "user":"admin", "password":"17a681cf-e3b1-4dcb-8138-2a73b57d89db"}'`
+`cf cups iot-hub-service-odata-shared-new-location -p "user,password" -r https://iot-hub-service-odata-shared-new-location.cfapps.io`
 
 15. Create User provided service for event :
-`cf cups iot-hub-service-odata-shared-new-event -p '{"url":"https://iot-hub-service-odata-shared-new-event.cfapps.io", "user":"admin", "password":"17a681cf-e3b1-4dcb-8138-2a73b57d89db"}'`
+`cf cups iot-hub-service-odata-shared-new-event -p "user,password" -r https://iot-hub-service-odata-shared-new-event.cfapps.io`
 
 #### Ingestion related apps and tasks :
 
