@@ -25,7 +25,7 @@ Get from users collection the first user (admin) and it's password and use it as
 #### Using the .env file for the apps (user admin and password), create user provided services :
 
 12. Create User provided service for metadata :
-`cf cups iot-hub-service-odata-shared-new-metadata -p "https://iot-hub-service-odata-shared-new-metadata.cfapps.io, 80, admin, 17a681cf-e3b1-4dcb-8138-2a73b57d89db"`
+`cf cups iot-hub-service-odata-shared-new-metadata -p '{"url":"https://iot-hub-service-odata-shared-new-metadata.cfapps.io", "user":"admin", "password":"17a681cf-e3b1-4dcb-8138-2a73b57d89db"}'`
 
 13. Create User provided service for rawdata :
 `cf cups iot-hub-service-odata-shared-new-rawdata -p "https://iot-hub-service-odata-shared-new-rawdata.cfapps.io, 80, admin, 17a681cf-e3b1-4dcb-8138-2a73b57d89db"`
