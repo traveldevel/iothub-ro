@@ -52,7 +52,11 @@ Used for all the metadata models and used by the metadata service.
 - auth_token (auto _id) 
 - description
 - created_at (datetime)
-- last_contact (datetime)
+- last_contact_ping (datetime)
+- last_contact_rawdata (datetime)
+- last_event_triggered (datetime)
+- last_command_sent (datetime)
+- last_command_confirmed (datetime)
 - mandatory_schema_id (_id)
 - validate_schema (bool)
 
@@ -80,6 +84,9 @@ Used for all the metadata models and used by the metadata service.
 - text
 - dismissed (bool)
 - user_id (_id)
+- rule_id
+- rawdata_id
+- triggered_at
 
 ### Fields for "TENANT_event_rule"
 
