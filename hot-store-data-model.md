@@ -54,6 +54,7 @@ Used for all the metadata models and used by the metadata service.
 - created_at (datetime)
 - last_contact_ping (datetime)
 - last_contact_rawdata (datetime)
+- last_contact_location (datetime)
 - last_event_triggered (datetime)
 - last_command_sent (datetime)
 - last_command_confirmed (datetime)
