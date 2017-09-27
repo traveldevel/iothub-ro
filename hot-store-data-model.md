@@ -60,6 +60,8 @@ Used for all the metadata models and used by the metadata service.
 - last_command_confirmed (datetime)
 - mandatory_schema_id (_id)
 - validate_schema (bool)
+- trigger_events (bool)
+- archive_to_coldstore (bool)
 
 ## 2.  Raw Data (iot_hub_mongo_LANDSCAPE_TENANT_rawdata)
 
