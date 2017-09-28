@@ -12,7 +12,7 @@ Each LANSCAPE has its own Kafka Instance
 
 All topics with only 1 partition : partition 0 !
 
-## Worker Apps
+## REST API and Worker Apps involved in data ingestion
 
 1. Node.js CF REST API as backend (optional) that writes data to <PROJECT_ID>_device_raw_data topic
 
