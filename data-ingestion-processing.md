@@ -1,6 +1,6 @@
 # Scalable data ingestion from device
 
-Each LANSCAPE has its own Kafka Instance
+Each LANSCAPE has its own Kafka Instance with 3 topics per TENANT
 
 ## Kafka Topics (for each Project specific to a Tenant of a Landscape)
 
