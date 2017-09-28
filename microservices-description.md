@@ -24,6 +24,12 @@
   
   Note : LANDSCAPE, TENANT replaceable with real names 
 
+### Kafka Topics
+
+ * for ingestion : KAFKA_TOPIC_PREFIX-LANDSCAPE-TENANT-raw-data
+ * for event rules processing : KAFKA_TOPIC_PREFIX-LANDSCAPE-TENANT-for-event-rules
+ * for transfer to coldstore : KAFKA_TOPIC_PREFIX-LANDSCAPE-TENANT-for-coldstore-history
+
 ### Credits and Resources
 
 [How to Create a Node.js MongoDB OData Service](https://www.codeproject.com/Articles/1111490/Create-OData-endpoint-for-MongoDB-on-MEAN-stack)
