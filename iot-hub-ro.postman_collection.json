@@ -1,0 +1,52 @@
+{
+	"id": "c3b9fa46-1052-9c8a-3de1-d569c84ba877",
+	"name": "iot-hub-ro",
+	"description": "",
+	"order": [
+		"f466d447-0d05-8be1-7a46-35f1ac856bf0"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1505687961480,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "f466d447-0d05-8be1-7a46-35f1ac856bf0",
+			"headers": "Content-Type: application/json\nAuthorization: Basic YWRtaW46MTdhNjgxY2YtZTNiMS00ZGNiLTgxMzgtMmE3M2I1N2Q4OWRi\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46MTdhNjgxY2YtZTNiMS00ZGNiLTgxMzgtMmE3M2I1N2Q4OWRi",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://iot-hub-ingestion-rest-shared-new.cfapps.io/save/data/for/59cbecac6354260045e46a91",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c3b9fa46-1052-9c8a-3de1-d569c84ba877",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Ingestion for device 1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1506621607025,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "[\n\t{\"p1\":\"v1\"},\n\t{\"p2\":\"v2\"},\n\t{\"latitude\":45},\n\t{\"longitude\":25}\n]"
+		}
+	]
+}
