@@ -3,7 +3,7 @@
 - Each LANDSCAPE in its own adn different Cloud Foundry Org
 - Each TENANT in its own different Cloud Foundry Space
 
-- [Backend Architecture](https://github.com/traveldevel/iothub-ro/raw/master/images/IMG_20170927_173626.jpg)
+- [Backend Architecture](https://github.com/traveldevel/iothub-ro/raw/master/images/IMG_20170928_100350.jpg)
 - [Frontend Architecture](https://github.com/traveldevel/iothub-ro/raw/master/images/IMG_20170927_173643.jpg)
 
 [How to Create a Node.js MongoDB OData Service](https://www.codeproject.com/Articles/1111490/Create-OData-endpoint-for-MongoDB-on-MEAN-stack)
