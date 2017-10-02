@@ -47,7 +47,13 @@ Parameters :
 
 17. Deploy ingestion app to Kafka :  `https://github.com/traveldevel/iot-hub-ingestion-rest`
 
-18. Deploy Kafka topic consumer app : `https://github.com/traveldevel/iot-hub-ingestion-processor`
+18. Deploy Kafka topic consumer app for ingestion: `https://github.com/traveldevel/iot-hub-ingestion-processor`
+
+19. Deploy Kafka topic consumer app for event processing : `https://github.com/traveldevel/iot-hub-event-processor`
+
+####
+
+20. API management with API Umbrela on the Ubuntu Kafka Host [here](https://api-umbrella.readthedocs.io/en/latest/getting-started.html#setup)
 
 
 ## Managed Kafka Service for free (with SSL only) : 
