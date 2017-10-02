@@ -53,7 +53,7 @@ Parameters :
 
 ####
 
-20. API management with API Umbrela on the Ubuntu Kafka Host [here](https://api-umbrella.readthedocs.io/en/latest/getting-started.html#setup)
+20. API management with API Umbrela on the Ubuntu Linux that hosts Kafka Host [here](https://api-umbrella.readthedocs.io/en/latest/getting-started.html#setup). Also configure the first admin user on https://host/admin 
 
 
 ## Managed Kafka Service for free (with SSL only) : 
