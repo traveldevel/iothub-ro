@@ -51,9 +51,13 @@ Parameters :
 
 19. Deploy Kafka topic consumer app for event processing : `https://github.com/traveldevel/iot-hub-event-processor`
 
-####
+#### API Management and tracing for : metadata, event, location, rawdata, ingestion
 
-20. API management with API Umbrela on the Ubuntu Linux that hosts Kafka Host [here](https://api-umbrella.readthedocs.io/en/latest/getting-started.html#setup). Also configure the first admin user on https://host/admin 
+20. API management with API Umbrela on the Ubuntu Linux that hosts Kafka Host [here](https://api-umbrella.readthedocs.io/en/latest/getting-started.html#setup). 
+
+21. Configure the first admin user on https://hostname/admin 
+
+22. Publish the 5 apis to API Umbrella and test their functionality with a new Api Key / User
 
 ## Bitnami Kafka appliance - v0 - fastest
 
