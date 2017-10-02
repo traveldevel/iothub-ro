@@ -102,6 +102,8 @@ Custom Start Command : `sudo kafka-manager -Dconfig.file=/etc/kafka-manager/appl
 
    open ports : 3000, 6667, 6188, 8020, 8080, 8440, 8441, 8670, 9093, 9001
    
+   open ports for api umbrella : 80, 443
+   
    edit `/etc/hostname`
    
    edit `/etc/hosts`
