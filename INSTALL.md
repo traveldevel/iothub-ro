@@ -57,7 +57,7 @@ Parameters :
 
 21. Configure the first admin user on https://hostname/admin 
 
-22. Publish the 5 apis to API Umbrella and test their functionality with a new Api Key / User
+22. Publish the 5 apis to API Umbrella and test their functionality with a new Api Key / User. For each API in general settings forward the Basxi auth user and password created in metadata service , user collection
 
 ## Bitnami Kafka appliance - v0 - fastest
 
