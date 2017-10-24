@@ -86,3 +86,12 @@ If updated in the future : https://packagecloud.io/spuder/kafka-manager
 3. Edit `/etc/hosts` with the public IP and full host and domain name
 4. Open ports for VM : 8080, 8020, 9000, 3000, 2181, 6188, 50075, 50010, 50070, 50090, 50470, 61310
 5. Install Ambari and configure cluster : https://docs.hortonworks.com/HDPDocuments/Ambari-2.5.2.0/bk_ambari-installation/content/download_the_ambari_repo_ubuntu16.html
+
+## Azure Hortonworks Sandbox VM instance
+
+0. Open ports : 8080, 4200, 8888
+1. edit admin password : http://HOST:4200/ (intial : root / hadoop)
+2. http://HOST:8080/ - Ambari
+3. http://HOST:8888/ - Ambari
+
+
