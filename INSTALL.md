@@ -78,3 +78,10 @@ advertised.host.name=iothubkafkashared.westeurope.cloudapp.azure.com
 ```
 
 If updated in the future : https://packagecloud.io/spuder/kafka-manager
+
+## Ambari Hadoop HDFS install
+
+1. Ubuntu Server 16.04 LTS virtual machine
+2. Set DNS hostname (static IP)
+3. Edit `/etc/hosts` with the public IP and full host and domain name
+4. Install Ambari and configure cluster : https://docs.hortonworks.com/HDPDocuments/Ambari-2.5.2.0/bk_ambari-installation/content/download_the_ambari_repo_ubuntu16.html
