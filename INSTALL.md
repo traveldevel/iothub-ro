@@ -84,4 +84,5 @@ If updated in the future : https://packagecloud.io/spuder/kafka-manager
 1. Ubuntu Server 16.04 LTS virtual machine
 2. Set DNS hostname (static IP)
 3. Edit `/etc/hosts` with the public IP and full host and domain name
-4. Install Ambari and configure cluster : https://docs.hortonworks.com/HDPDocuments/Ambari-2.5.2.0/bk_ambari-installation/content/download_the_ambari_repo_ubuntu16.html
+4. Open ports for VM : 8080, 8020, 9000, 3000, 2181, 6188, 50075, 50010, 50070, 50090, 50470, 61310
+5. Install Ambari and configure cluster : https://docs.hortonworks.com/HDPDocuments/Ambari-2.5.2.0/bk_ambari-installation/content/download_the_ambari_repo_ubuntu16.html
