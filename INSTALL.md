@@ -21,8 +21,9 @@ Get from users collection the first user (admin) and it's password and use it as
 9. Deploy app : `https://github.com/traveldevel/iot-hub-service-odata-rawdata`
 10. Deploy app : `https://github.com/traveldevel/iot-hub-service-odata-location`
 11. Deploy app : `https://github.com/traveldevel/iot-hub-service-odata-event`
+12. Deploy app : `https://github.com/traveldevel/iot-hub-service-files`
 
-#### Create the user provided services out of the 4 apps deployed on steps 8-11
+#### Create the user provided services out of the 4 apps deployed on steps 8-12
 
 Parameters :
 - url : url of the app that processes the request (after deployment)
@@ -41,23 +42,26 @@ Parameters :
 15. Create User provided service for event :
 `cf cups iot-hub-service-odata-shared-new-event -p "url,user,password"`
 
+16. Create User provided service for files :
+`cf cups iot-hub-service-shared-new-files -p "url,user,password"`
+
 #### Ingestion related apps and tasks :
 
-16. Create a Kafka Server Broker Instance (see below chapter : Bitnami Kafka appliance - v0 - fastest)
+17. Create a Kafka Server Broker Instance (see below chapter : Bitnami Kafka appliance - v0 - fastest)
 
-17. Deploy ingestion app to Kafka :  `https://github.com/traveldevel/iot-hub-ingestion-rest`
+18. Deploy ingestion app to Kafka :  `https://github.com/traveldevel/iot-hub-ingestion-rest`
 
-18. Deploy Kafka topic consumer app for ingestion: `https://github.com/traveldevel/iot-hub-ingestion-processor`
+19. Deploy Kafka topic consumer app for ingestion: `https://github.com/traveldevel/iot-hub-ingestion-processor`
 
-19. Deploy Kafka topic consumer app for event processing : `https://github.com/traveldevel/iot-hub-event-processor`
+20. Deploy Kafka topic consumer app for event processing : `https://github.com/traveldevel/iot-hub-event-processor`
 
 #### API Management and tracing for : metadata, event, location, rawdata, ingestion
 
-20. API management with API Umbrela on the Ubuntu Linux that hosts Kafka Host [here](https://api-umbrella.readthedocs.io/en/latest/getting-started.html#setup). 
+21. API management with API Umbrela on the Ubuntu Linux that hosts Kafka Host [here](https://api-umbrella.readthedocs.io/en/latest/getting-started.html#setup). 
 
-21. Configure the first admin user on https://hostname/admin 
+22. Configure the first admin user on https://hostname/admin 
 
-22. Publish the 5 apis to API Umbrella and test their functionality with a new Api Key / User. For each API in general settings forward the Basxi auth user and password created in metadata service , user collection
+23. Publish the 6 apis to API Umbrella and test their functionality with a new Api Key / User. For each API in general settings forward the Basxi auth user and password created in metadata service , user collection
 
 ## Bitnami Kafka appliance - v0 - fastest
 
